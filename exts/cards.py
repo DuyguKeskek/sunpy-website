@@ -22,9 +22,7 @@ def visit_card_node(self, node):
     else:
         title = ''
 
-    col_extra_class = 'column-half' if title else ''
-
-    body = f"""<div class="column {col_extra_class}">
+    body = f"""<div class="column">
                 {title}
                 <div class="card">
                 <img src="_static/img/{img_name}" alt="{name}">

@@ -1,4 +1,7 @@
 sphinx
-sphinxcontrib-rawfiles
-git+https://github.com/sunpy/sunpy-sphinx-theme
-git+https://github.com/Cadair/ablog.git@devel
+sunpy-sphinx-theme
+ablog
+nbsphinx
+ipython
+jupyter_client
+ipykernel

@@ -1,6 +1,8 @@
 *.doctree
 *.pickle
 _build/
-_website/
 *vscode*
 *pyc
+.ipynb_checkpoints
+CITATION.rst
+CODE_OF_CONDUCT.rst

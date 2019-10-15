@@ -13,7 +13,7 @@ SunPy
             background-size: cover;
             }
           h1 {
-          	display : none;
+           display : none;
           }
         </style>
         <div class="container">
@@ -27,17 +27,18 @@ SunPy
                     </div>
                     <p class="lead">The community-developed, free and open-source solar data analysis environment for Python.</p>
                     <div id="front" class="border">
-                    <p class="whatsnew">What's new in <a href="#">SunPy 0.8?</a></p>
-                    <p class="version">Current version:</p>
+                    <p class="whatsnew">What's new in <a href="https://docs.sunpy.org/en/stable/whatsnew/1.0.html">SunPy 1.0?</a></p>
+                    <p class="body">Latest stable release: <span id="version"></span></p>
                     </div>
                     <div>
-                        <a href="http://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
-                        <a href="http://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/guide/installation/index.html" class="btn btn-default btn2" role="button">Install SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/guide/tour.html" class="btn btn-default btn1" role="button">Tour of SunPy</a>
+                        <a href="https://docs.sunpy.org/en/stable/generated/gallery/index.html" class="btn btn-default btn1" role="button">Example Gallery</a>
                     </div>
                 </div>
             </div>
         </div>
-        
+
 .. toctree::
    :maxdepth: 0
    :hidden:
@@ -45,6 +46,5 @@ SunPy
    about.rst
    blog.rst
    help.rst
-   newcomers.rst
    team.rst
    contribute.rst
